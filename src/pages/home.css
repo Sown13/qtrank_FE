@@ -1,0 +1,79 @@
+#home-header{
+    width: 100%;
+    height: 116px;
+    float: left;
+}
+#display{
+    width: 100%;
+}
+/*Content*/
+#content{
+    float: left;
+    /*clear: both;*/
+    width: 100%;
+    height: 1600px;
+    background: #18191A;
+
+}
+#main-contents{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+}
+#hot-comics{
+    width: 100%;
+    height: 400px;
+    margin-top: 10px;
+}
+.hot-comics-content:nth-child(odd){
+    float: left;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 25%;
+       /*align-items: center;*/
+    justify-content: center;
+}
+.hot-comics-content:nth-child(even){
+    float: left;
+    display: flex;
+    height: 100%;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.hot-comics-content:nth-child(odd) img{
+    width: 100%;
+    height: 45%;
+    border-radius: 10px;
+}
+.hot-comics-content:nth-child(odd) img:nth-child(even){
+
+    margin-top: 5px;
+
+}
+.hot-comics-content:nth-child(even) img{
+    width: 98%;
+    height: calc(90% + 5px);
+}
+#release-calender{
+    margin-top: 20px;
+    width: 100%;
+    height: 200px;
+    background: #242526;
+    border-radius: 10px;
+    overflow-y: auto;
+    font-size: 17px;
+    color: white;
+    padding: 10px 10px;
+}
+#release-calender span{
+    margin-top: 5px;
+}
+.release-time{
+    color: darkcyan;
+    font-weight: 700;
+}
+.release-name{
+    margin-left: 5px;
+}
