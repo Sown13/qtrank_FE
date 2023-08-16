@@ -2,6 +2,7 @@ import "./Main.css"
 import {Carousel} from '@trendyol-js/react-carousel';
 import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
+import {Link} from "react-router-dom";
 
 export default function Main() {
     console.log(window.innerHeight);
@@ -119,6 +120,8 @@ export default function Main() {
                     </div>
                 </div>
             </div>
+            <div> <Link to={"/truyen-moi-cap-nhat"}> Xem nhieu truyen hon </Link></div>
+            <div> <Link to={"/ten-truyen"}> Xem truyen </Link></div>
         </div>
     )
 }

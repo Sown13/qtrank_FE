@@ -1,4 +1,4 @@
-import "./header.css"
+import "./Header.css"
 import {useEffect} from "react";
 
 export const Header = () =>{
